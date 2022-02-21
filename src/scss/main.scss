@@ -1,14 +1,35 @@
 //Vendor
-@import "./vendor/_vendor-dir";
+// @import "./vendor/_vendor-dir";
 
 //Abstracts
-@import "./abstracts/_abstracts-dir";
+// @import "./abstracts/_abstracts-dir";
 
 //Base Styles
-@import "./base/_base-dir";
+// @import "./base/_base-dir";
 
 //Components
-@import "./components/_components-dir";
+// @import "./components/_components-dir";
 
 //Layout
-@import "./layouts/_layouts-dir";
+// @import "./layouts/_layouts-dir";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dongle&family=Lato:ital@1&family=Roboto:wght@100;300&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+    background-color: rgb(164, 171, 191);
+}
+header {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+            list-style: none;
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+                font-family: "source sans pro";
+                font-size: 30px;
+                font-weight: 900;
+            }
+        }
+    }
+}
