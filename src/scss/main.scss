@@ -19,16 +19,23 @@ body {
 }
 header {
     ul {
+        height: 10vh;
         display: flex;
         justify-content: space-around;
+        align-items: center;
+        background-color: rgb(93, 118, 140);
         li {
             list-style: none;
-            a {
-                color: whitesmoke;
-                text-decoration: none;
-                font-family: "source sans pro";
-                font-size: 30px;
-                font-weight: 900;
+                a {
+                    color: rgb(217, 193, 202);
+                    text-decoration: none;
+                    font-family: "source sans pro";
+                    font-size: 30px;
+                    font-weight: 900;
+                     list-style: none;
+                    &:hover {
+                        color: rgb(242, 220, 224);
+                }
             }
         }
     }
