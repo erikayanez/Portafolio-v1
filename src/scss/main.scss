@@ -39,7 +39,8 @@ header {
                     font-weight: 900;
                      list-style: none;
                     &:hover {
-                        color: rgb(242, 220, 224);
+                        color: rgb( 93, 118, 140);
+                        
                 }
             }
         }
@@ -58,7 +59,7 @@ header {
         justify-content: center;
         align-items: center;
         .name {
-            width: 15vw;
+            width: 20vw;
             height: 15vh;
             background-color: rgb(128, 144, 166, 0.5);
             display: flex;
@@ -68,10 +69,11 @@ header {
             border: 2px solid rgb(128, 144, 166);
             h1 {
                 width: 20vw;
-                height: 5vh;
+                height: 7vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-size: 30px;
                 color: whitesmoke; 
             }
             p {
@@ -80,7 +82,10 @@ header {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-family: "source sans pro";
                 color: whitesmoke;
+                font-size: 20px;
+                font-weight: 900;
             }
             
         }
