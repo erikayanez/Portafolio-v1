@@ -21,6 +21,7 @@ body {
     align-items: center;
     background-color: rgb(215, 221, 238);
 }
+// menu
 header {
     ul {
         width: 100vw;
@@ -46,6 +47,7 @@ header {
         }
     }
 }
+// Name and picture
 .intro {
     width: 55vw;
     height: 45vh;
@@ -103,12 +105,14 @@ header {
         }    
     }   
 }
+// About me section
 .about-me {
     margin-top: 35px;
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: rgb(162, 177, 197);
     border: 3px solid whitesmoke;
@@ -151,10 +155,11 @@ header {
          }
      }
 }
+// My skills section
 .my-skills {
     margin-top: 35px;
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,9 +190,14 @@ header {
         }
         p:nth-child(even) {
             font-size: 70px;
+           
         }
         p:nth-child(odd){
             font-size: 50px;
         }  
     }
+}
+// My Work section
+.my-work {
+
 }
