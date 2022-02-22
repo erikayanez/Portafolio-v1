@@ -103,3 +103,39 @@ header {
         }    
     }   
 }
+.about-me {
+    margin-top: 25px;
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 177, 197);
+    border: 3px solid whitesmoke;
+    .titles {
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 15vh;
+        color: whitesmoke;
+        font-size: 20px;
+
+        p {
+            margin: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            font-family: "source sans pro";
+            font-weight: 900;
+        }
+    }
+     .container {
+         width: 80vw;
+         height: 30vh;
+         border: 2px dashed salmon;
+     }
+}
