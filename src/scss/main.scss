@@ -161,7 +161,7 @@ header {
     background-color: rgb(162, 177, 197);
     border: 3px solid whitesmoke;
     .titles {
-        margin: 0%;
+        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -172,11 +172,22 @@ header {
         font-size: 20px; 
     }
     .skills {
-        width: 70vw;
+        width: 60vw;
         height: 40vh;
+        display: flex;
+        justify-content: center;
         background-color: rgb(128, 144, 166, 0.5);
         border: 2px solid rgb(128, 144, 166); 
-    
+        color: whitesmoke;
+        font-size: 20px;
+        p {
+            padding: 0px 30px 0px 50px;
         }
-   
+        p:nth-child(even) {
+            font-size: 70px;
+        }
+        p:nth-child(odd){
+            font-size: 50px;
+        }  
+    }
 }
