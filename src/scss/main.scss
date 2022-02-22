@@ -159,7 +159,7 @@ header {
 .my-skills {
     margin-top: 35px;
     width: 80vw;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +178,7 @@ header {
     }
     .skills {
         width: 60vw;
-        height:45vh;
+        height:50vh;
         display: flex;
         justify-content: center;
         background-color: rgb(128, 144, 166, 0.5);
@@ -225,13 +225,14 @@ header {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
+        background-color: rgb(128, 144, 166, 0.5);
+        border: 2px solid rgb(128, 144, 166);
         div {
             width: 20vw;
             height: 30vh;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img {
                  width: 18vw;
                  height: 25vh;
@@ -245,4 +246,58 @@ header {
              }
         }
     } 
+}
+// Footer/Contact me
+footer{
+    margin-top: 35px;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(93, 118, 140, 0.5);
+    .contact-me {
+        width: 80vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(128, 144, 166, 0.5);
+        border: 2px solid rgb(128, 144, 166);
+        color: whitesmoke;
+        .titles {
+            width: 20vw;
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+        }
+        .email {
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .social-media {
+            height: 5vh;
+            display: flex;
+            justify-content: space-between;
+            div {
+                width: 25vw;
+                height: 5vh;
+                display: flex;
+                justify-content: center;
+                a {
+                    font-family: "source sans pro";
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: whitesmoke;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
