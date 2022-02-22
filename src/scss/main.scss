@@ -122,7 +122,6 @@ header {
         height: 15vh;
         color: whitesmoke;
         font-size: 20px;
-
         p {
             margin: 0;
             display: flex;
@@ -151,4 +150,33 @@ header {
              font-size: 20px;
          }
      }
+}
+.my-skills {
+    margin-top: 35px;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 177, 197);
+    border: 3px solid whitesmoke;
+    .titles {
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 15vh;
+        color: whitesmoke;
+        font-size: 20px; 
+    }
+    .skills {
+        width: 70vw;
+        height: 40vh;
+        background-color: rgb(128, 144, 166, 0.5);
+        border: 2px solid rgb(128, 144, 166); 
+    
+        }
+   
 }
