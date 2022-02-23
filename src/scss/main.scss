@@ -36,12 +36,12 @@
                         color: whitesmoke;
                         text-decoration: none;
                         font-family: "source sans pro";
-                        font-size: 25px;
-                        font-weight: 900;
+                        font-size: 10px;
+                        font-weight: 500;
                         list-style: none;
                         &:hover {
                             color: rgb( 93, 118, 140);
-                            
+                         
                     }
                 }
             }
@@ -329,11 +329,15 @@
         background-color: rgb(93, 118, 140, 0.5);
         // menu
         header {
-        display: flex;
-        justify-content: center;
-        ul {
-            width: 90vw;
+            width: 95vw;
             height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        ul {
+            width: 95vw;
+            height: 10vh;
+            padding-right: 20px;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
@@ -341,10 +345,13 @@
             li {
                 list-style: none;
                     a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         color: whitesmoke;
                         text-decoration: none;
                         font-family: "source sans pro";
-                        font-size: 25px;
+                        font-size: 20px;
                         font-weight: 500;
                         list-style: none;
                         &:hover {
@@ -358,16 +365,15 @@
         .intro {
             display: flex;
             justify-content: center;
-            h1 {
-                color: whitesmoke;
-            }
-            p {
+            h1, p {
+                display: flex;
+                justify-content: center;
                 color: whitesmoke;
             }
             .picture {
                 img {
-                    width: 25vw;
-                    height: 12vh;                }
+                    width: 37vw;
+                    height: 20vh;                }
             }
         }
         // About me section
@@ -380,11 +386,24 @@
                 color: whitesmoke;
             }
             .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 width: 90vw;
-                height: 30vh;
+                height: 40vh;
+                padding-left: 10px;
+                padding-right: 10px;
                 color: whitesmoke;
+                font-size: 15px;
                 background-color: rgb(128, 144, 166, 0.5);
                 border: 2px solid whitesmoke;
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 25vw;
+                    height: 30vh;
+                }
             }
         }
         // My skills section
@@ -398,9 +417,10 @@
             }
             .skills {
                 width: 90vw;
-                height: 30vh;
+                height: 40vh;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 color: whitesmoke;
                 background-color: rgb(128, 144, 166, 0.5);
                 border: 2px solid whitesmoke;
@@ -409,10 +429,10 @@
                     padding: 0px 20px 0px 30px;
                 }
                 p:nth-child(even) {
-                    font-size: 40px;
+                    font-size: 35px;
                 }
                 p:nth-child(odd){
-                    font-size: 30px;
+                    font-size: 25px;
                     transform: rotate(10deg)
                 }  
             }
@@ -424,15 +444,19 @@
              display: flex;
              flex-direction: column;
              justify-content: center;
+             align-items: center;
              .titles {
+                 width: 35vw;
+                 height: 5vh;
                  display: flex;
                  justify-content: center;
+                 align-items: center;
                  color: whitesmoke;
              }
              .gallery-container, .gallery-container2 {
                  width: 90vw;
                  height: 30vh;
-                 margin-left: 2rem;
+                 margin-left:2rem;
                  display: grid;
                  grid-template-columns: repeat(3, 1fr);
                  align-items: center;
@@ -458,25 +482,51 @@
             width: 97vw;
             height: 15vh;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             background-color: rgb(93, 118, 140, 0.5);
-            .contact-me {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .titles {
-                color: whitesmoke;
-            }
-            .email {
-                color: whitesmoke;
-                font-size: 20px;
-                text-decoration: none;
-            }
-            .social-media {
-                color: whitesmoke;
-            }
+                .contact-me {
+                    width: 80vw;
+                    height: 15vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                .titles {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 35vw;
+                    height: 5vh;
+                    color: whitesmoke;
+                }
+                .email {
+                    width: 25vw;
+                    height: 5vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: whitesmoke;
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+                .social-media {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    color: whitesmoke;
+                    div {
+                        width: 30vw;
+                        height: 5vh;
+                        display: flex;
+                        justify-content: space-between;
+                        a {
+                            text-decoration: none;
+                            color: whitesmoke;
+                            font-size: 15px;
+                        }
+                    }
+                }
             }
         }
     }
