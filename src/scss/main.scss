@@ -36,8 +36,8 @@
                         color: whitesmoke;
                         text-decoration: none;
                         font-family: "source sans pro";
-                        font-size: 10px;
-                        font-weight: 500;
+                        font-size: 30px;
+                        font-weight: 900;
                         list-style: none;
                         &:hover {
                             color: rgb( 93, 118, 140);
@@ -77,23 +77,7 @@
                     align-items: center;
                     font-size: 30px;
                     color: whitesmoke; 
-                    // animation-duration: 8s;
-                    // animation-name: slide-in;
-                    // animation-iteration-count: infinite;
-                    // animation-direction: alternate-reverse; 
-                }
-                    // // @keyframes slide-in {
-                    // //     from {
-                    // //        margin-left: 100%;
-                    // //        width: 300%;
-                    // //      }
-                    
-                    // //      to {
-                    // //        margin-left: 0%;
-                    // //        width: 100%;
-                    // //      }
-                    //  }
-            
+                }             
                 p {
                     width: 20vw;
                     height: 5vh;
@@ -104,12 +88,7 @@
                     color: whitesmoke;
                     font-size: 20px;
                     font-weight: 900;
-                    // animation-duration: 3s;
-                    // animation-name: slidein;
-                    // animation-iteration-count: infinite;
-                    // animation-direction: alternate;
-                }
-                
+                }  
             }
             .picture {
                 display: flex;
@@ -210,11 +189,12 @@
             }
             p:nth-child(even) {
                 font-size: 75px;
+                  transform: rotate(45deg) rotate(5turn);transition: 15s; 
             }
             p:nth-child(odd){
                 font-size: 50px;
-                transform: rotate(10deg)
-            }  
+                transform: rotate(-30deg) rotate(5turn);transition: 20s;
+            } 
         }
     }
     // My Work section
@@ -440,7 +420,7 @@
         // My Work section
         .my-work {
              width: 90vw;
-             height: 80vh;
+             height: 70vh;
              display: flex;
              flex-direction: column;
              justify-content: center;
