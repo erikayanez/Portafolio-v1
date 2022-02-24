@@ -193,11 +193,11 @@
             }
             p:nth-child(even) {
                 font-size: 75px;
-                transition-delay: 5s; transform: rotate(45deg) rotate(5turn); transition: 15s;
+                 transform: rotate(45deg) rotate(5turn); transition: 10s; 
             }
             p:nth-child(odd){
                 font-size: 50px;
-                transition-delay: 5s;transform: rotate(-30deg) rotate(5turn); transition: 20s;
+                transform: rotate(-30deg) rotate(5turn); transition: 15s; 
             } 
         }
     }
@@ -226,6 +226,7 @@
         .gallery-container, .gallery-container2 {
             width: 70vw;
             height: 40vh;
+            padding-left: 30px;
             margin-left: 3rem;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
