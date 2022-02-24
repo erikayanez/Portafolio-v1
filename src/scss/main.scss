@@ -131,7 +131,8 @@
                 justify-content: center;
                 align-items: flex-start;
                 font-family: "source sans pro";
-                font-weight: 900;
+                font-weight: 400;
+                
             }
         }
         .container {
@@ -143,10 +144,13 @@
             div {
                 width: 20vw;
                 height: 40vh;
+                padding-right: 10px;
+                padding-left: 10px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 word-spacing: 10px;
+                line-height: 40px;
                 background-color: rgb(128, 144, 166, 0.5);
                 border: 2px solid rgb(128, 144, 166);
                 color: whitesmoke;
