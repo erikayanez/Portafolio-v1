@@ -109,15 +109,7 @@
     .about-me {
         @include section-box (70vh);
         .titles {
-            margin: 0%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 30vw;
-            height: 15vh;
-            color: whitesmoke;
-            font-size: 25px;
+            @include titles-box ();
             p {
                 margin: 0;
                 display: flex;
@@ -155,15 +147,7 @@
     .my-skills {
         @include section-box (75vh);
         .titles {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 30vw;
-            height: 15vh;
-            color: whitesmoke;
-            font-size: 25px; 
+            @include titles-box ();
         }
         .skills {
             width: 60vw;
@@ -195,15 +179,7 @@
     .my-work {
         @include section-box (110vh);
         .titles {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 30vw;
-            height: 15vh;
-            color: whitesmoke;
-            font-size: 25px; 
+            @include titles-box ();
         } 
         .gallery-container, .gallery-container2 {
             width: 70vw;
