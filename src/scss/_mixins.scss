@@ -1,0 +1,18 @@
+// Hiding effect
+@mixin hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+//   Revealing effect
+@mixin revel {
+    opacity: 1;
+    visibility: visible;
+  }
+//   Spiral effect
+@mixin fade-spiral($transition-delay,$font-size,$time,$transform,$turn) {
+    transition-delay: $time ;
+    font-size: $font-size;
+    transition: $time;
+    transform: $transform;
+    transform: $turn;
+  }
