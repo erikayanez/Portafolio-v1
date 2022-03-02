@@ -1,4 +1,8 @@
 
+@mixin standard-setup (){
+    margin: 0;
+    padding: 0;
+}
 // Hiding effect
 @mixin hide {
     opacity: 0;
