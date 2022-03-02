@@ -1,3 +1,4 @@
+
 // Hiding effect
 @mixin hide {
     opacity: 0;
@@ -9,10 +10,20 @@
     visibility: visible;
   }
 //   Spiral effect
-@mixin fade-spiral($transition-delay,$font-size,$time,$transform,$turn) {
-    transition-delay: $time ;
+@mixin fade-spiral($font-size,$time,$transform,$turn) {
     font-size: $font-size;
     transition: $time;
     transform: $transform;
     transform: $turn;
+  }
+  @mixin section-box ($height) {
+    margin-top: 35px;
+    width: 80vw;
+    height: $height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 177, 197);
+    border: 3px solid whitesmoke;
   }

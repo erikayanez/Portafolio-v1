@@ -107,15 +107,7 @@
     }
     // About me section
     .about-me {
-        margin-top: 35px;
-        width: 80vw;
-        height: 70vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(162, 177, 197);
-        border: 3px solid whitesmoke;
+        @include section-box (70vh);
         .titles {
             margin: 0%;
             display: flex;
@@ -161,14 +153,7 @@
     }
     // My skills section
     .my-skills {
-        margin-top: 35px;
-        width: 80vw;
-        height: 75vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(162, 177, 197);
-        border: 3px solid whitesmoke;
+        @include section-box (75vh);
         .titles {
             margin: 0;
             display: flex;
@@ -193,12 +178,14 @@
                 padding: 0px 30px 0px 50px;
             }
             p:nth-child(even) {
-                @include fade-spiral(10s,75px,15s,rotate(45deg),rotate(5turn));
+                @include fade-spiral(75px,15s,rotate(45deg),rotate(5turn));
+                transition-delay: 10s;
                 // font-size: 75px;
                 //  transform: rotate(45deg) rotate(5turn); transition: 15s; 
             }
             p:nth-child(odd){
-                @include fade-spiral(10s,50px,20s,rotate(-30deg),rotate(5turn));
+                @include fade-spiral(50px,20s,rotate(-30deg),rotate(5turn));
+                transition-delay: 10s;
                 // font-size: 50px;
                 // transform: rotate(-30deg) rotate(5turn); transition: 20s; 
             } 
@@ -206,15 +193,7 @@
     }
     // My Work section
     .my-work {
-        margin-top: 35px;
-        width: 80vw;
-        height: 110vh;
-        display: flex;
-        flex-direction: column;
-        // justify-content: center;
-        align-items: center;
-        background-color: rgb(162, 177, 197);
-        border: 3px solid whitesmoke;
+        @include section-box (110vh);
         .titles {
             margin: 0;
             display: flex;
