@@ -1,5 +1,5 @@
 
-@mixin standard-setup (){
+@mixin standard-setup(){
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,7 @@
     transform: $transform;
     transform: $turn;
   }
-  @mixin section-box ($height) {
+  @mixin section-box($height) {
     margin-top: 35px;
     width: 80vw;
     height: $height;
@@ -31,7 +31,7 @@
     background-color: rgb(162, 177, 197);
     border: 3px solid whitesmoke;
   }
-  @mixin titles-box (){
+  @mixin titles-box(){
     margin: 0;
     display: flex;
     flex-direction: column;
