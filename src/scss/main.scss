@@ -166,13 +166,13 @@
             }
             p:nth-child(even) {
                 @include fade-spiral(75px,15s,rotate(45deg),rotate(5turn));
-                transition-delay: 10s;
+                
                 // font-size: 75px;
                 //  transform: rotate(45deg) rotate(5turn); transition: 15s; 
             }
             p:nth-child(odd){
                 @include fade-spiral(50px,20s,rotate(-30deg),rotate(5turn));
-                transition-delay: 10s;
+                
                 // font-size: 50px;
                 // transform: rotate(-30deg) rotate(5turn); transition: 20s; 
             } 

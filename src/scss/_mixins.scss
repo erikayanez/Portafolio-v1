@@ -15,6 +15,7 @@
   }
 //   Spiral effect
 @mixin fade-spiral($font-size,$time,$transform,$turn) {
+    transition-delay: 10s;
     font-size: $font-size;
     transition: $time;
     transform: $transform;

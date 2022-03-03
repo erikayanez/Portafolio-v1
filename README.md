@@ -8,7 +8,7 @@ This project gave me the opportunity to apply many tools in order to create a ba
 - **Description:**
 > For this project it was required to create a webpage using Html, Css and Scss.  A repository was created in GitHub.
 
-- **- **Developed with:**
+- ### Developed with:
 - [x] _Html5_
 - [x] _Css_
 - [x] _Scss_
